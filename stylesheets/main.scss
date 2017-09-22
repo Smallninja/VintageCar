@@ -1,0 +1,145 @@
+body,html{
+	width:100%;
+}
+header{
+
+}
+* h1{
+	margin:0;
+}
+nav{
+	background-color:#2f2e2e;
+	width:100%;
+	padding:25px 0px;
+	position:fixed;
+	z-index: 2;
+	ul{
+		list-style: none;
+		display:flex;
+		margin:0;
+		color:white;
+		justify-content: center;
+		padding-right:100px;
+		li{
+			padding:0px 15px;
+		}
+	}
+}
+section{
+	height:150vh;
+	background: url('img/car.webp')no-repeat center fixed;
+	background-size:cover;
+	margin:0;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	flex-direction: column;
+	position: relative;
+	h1{
+		margin:0;
+		font-size:60px;
+	}
+	h2{
+		font-size:40px;
+	}
+}
+.text-box{
+	text-align: center;
+	padding-bottom:400px;
+}
+.sm-list{
+	position:absolute;
+	bottom:0;
+	left:50%;
+}
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.parallax-head{
+	color:white;
+	text-align:center;
+	padding-bottom:150px;
+}
+.parallax-text{
+	color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.parallax-text .col{
+	padding:0px 40px;
+	text-align:center;
+}
+
+.portfolio-section{
+	height:900px;
+	background-color:white;
+}
+.portfolio-head{
+	text-align:center;
+}
+.portfolio-head h1{
+	padding: 40px 0px;
+}
+
+.show-case{
+	width:85%;
+	margin:0 auto;
+	border:1px solid black;
+	height:600px;
+	.row{
+		display:flex;
+		height: 50%;
+		background-color:black;
+		.col{
+			transition: opacity 0.5s ease;
+			flex-grow:1;
+			overflow: hidden;
+						transition: 2;
+			img{
+				width:100%;
+			}
+		}
+		.col:hover{
+			opacity: .5;
+		}
+
+	}
+}
+
+.about-us{
+	min-height: 800px;
+    background: transparent;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.white-box{
+	width:40%;
+	height:500px;
+	background-color:white;
+	display:flex;
+	align-items:center;
+	flex-direction: column;
+}
+.white-box h1{
+	padding:20px 0px;
+}
+.white-box p{
+	width:90%;
+	text-align: center;
+}
+.bottom-con{
+	min-height: 800px;
+    background: transparent;
+}
+.contact{
+	min-height: 800px;
+    background: transparent;
+}
